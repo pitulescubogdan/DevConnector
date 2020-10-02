@@ -5,3 +5,4 @@ node_modules
 devconnector_html_theme
 __MACOSX
 config/github.json
+config/default.json
