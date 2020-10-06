@@ -15,6 +15,7 @@ import Dashboard from './components/dashboard/Dashboard';
 import CreateProfile from './components/profile-from/CreateProfile';
 import EditProfile from './components/profile-from/EditProfile';
 import AddExperience from './components/profile-from/AddExperience';
+import Profiles from './components/profiles/Profiles';
 import AddEducation from './components/profile-from/AddEducation';
 import PrivateRoute from './components/routing/PrivateRoute';
 
@@ -37,6 +38,7 @@ const App = () => {
             <Switch>
               <Route exact path='/register' component={Register} />
               <Route exact path='/login' component={Login} />
+              <Route exact path='/profiles' component={Profiles} />
               <PrivateRoute exact path='/dashboard' component={Dashboard} />
               <PrivateRoute
                 exact
