@@ -20,7 +20,7 @@ const Posts = ({ getPosts, post: { posts, loading } }) => {
       </p>
       <div className='posts'>
         {posts.map((post) => (
-          <PostItem key={post.id} post={post} />
+          <PostItem key={post._id} post={post} />
         ))}
       </div>
     </Fragment>
