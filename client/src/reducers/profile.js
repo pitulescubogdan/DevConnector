@@ -8,7 +8,7 @@ import {
 const initialState = {
   profile: null,
   profiles: [],
-  repost: [],
+  repos: [],
   loading: true,
   error: {},
 };

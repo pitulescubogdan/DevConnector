@@ -26,6 +26,7 @@ router.get('/me', auth, async (req, res) => {
     }).populate('user', ['name', 'avatar']);
 
     if (!profile) {
+      console.log(profile);
       return res.status(400).json({ msg: 'There is no profile for this user' });
     }
 
